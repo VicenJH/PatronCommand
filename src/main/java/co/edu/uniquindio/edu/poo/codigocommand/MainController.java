@@ -30,25 +30,25 @@ public class MainController {
     }
 
 
-
-
+    //botón prender la Luz
     @FXML
     private void onPrenderLuz() {
         control.setCommand(prenderCommand);
         control.presionarBoton();
     }
-
+    //botón apagar la Luz
     @FXML
     private void onApagarLuz() {
         control.setCommand(apagarCommand);
         control.presionarBoton();
     }
+    //botón prender la TV
     @FXML
     private void onPrenderTV() {
         control.setCommand(prenderCommand1);
         control.presionarBoton();
     }
-
+    //botón apagar la TV
     @FXML
     private void onApagarTV() {
         control.setCommand(apagarCommand1);

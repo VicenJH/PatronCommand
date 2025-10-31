@@ -1,6 +1,10 @@
 package co.edu.uniquindio.edu.poo.codigocommand;
 import javafx.scene.control.Label;
 
+/**
+ * Clase que representa un televisor controlable.
+ * También actúa como receptor dentro del patrón Command.
+ */
 public class TV {
     private Label statusLabel;
 
@@ -8,10 +12,13 @@ public class TV {
         this.statusLabel = statusLabel;
     }
 
-    public void prender(){
-        System.out.println("LA TV SE HA ENCENDIDO ");
+    /** Enciende la TV */
+    public void prender() {
+        System.out.println("LA TV SE HA ENCENDIDO");
     }
-    public void apagar(){
-        System.out.println("LA TV SE HA APAGADO ");
+
+    /** Apaga la TV */
+    public void apagar() {
+        System.out.println("LA TV SE HA APAGADO");
     }
 }
